@@ -1,2 +1,3 @@
 #!/usr/bin/env ruby
-Holbert
+
+puts ARGV[0].scan(/School/i).join
